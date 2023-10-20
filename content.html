@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Suggestion box</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <div class="content" id="content">
+            <header>
+                <h2>Suggestion box</h2>
+            </header>
+            <div class="formContainer"> 
+                <form action="#" id="form">
+                    <label for="title">Title</label>
+                    <input type="text" id="title" name="title">
+                    <label for="body">Body</label>
+                    <textarea id="body" name="body"></textarea>
+                    <button type="submit" id="submit">POST</button>
+                </form>
+            </div>
+            <div class="myPosts" id="myPosts"></div>
+        </div>
+        <script src="index.js"></script>    
+    </body>
+</html>
