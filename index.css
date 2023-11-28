@@ -31,7 +31,7 @@ img.logo {
     flex-grow: 1;
     text-align: center;
 }
-p {
+p#choice {
     text-align: center;
 }
 .departments {
@@ -84,7 +84,22 @@ p {
 .formContainer {
     padding: 0.5em;
 }
-
+.myPosts {
+    padding: 0.5em;
+}
+.post {
+    padding: 2px;
+    color: #191825;
+    border-radius: 5px;
+    margin-bottom: 5px;
+    background: rgba(255,255,255,0.9);
+}
+p.like-section {
+    text-align: right;
+}
+p.like-section span {
+    margin-left: 5px;
+}
 textarea,
 input[type="text"],
 button[type="submit"] {

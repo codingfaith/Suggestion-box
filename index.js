@@ -1,4 +1,4 @@
-const departmentsArr = ["Strategic_Service","Research_and_Development","Project_Management","Finance","Information_Technology","Human_Resources","Data_Analytics","Data_Processing","Compliance","Field","CATI","Assets_and_Procurement"]
+const departmentsArr = ["General","Security","Janitors_Caretakers","Strategic_Service","Research_and_Development","Project_Management","Finance","Information_Technology","Human_Resources","Data_Analytics","Data_Processing","Compliance","Field","CATI","Assets_and_Procurement"]
 
 const departments = document.getElementById("departments")
 let departmentsString = ''
